@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list.keys.include?(name)
           pigeon_list[name] = {attribute => [option]}
         elsif !pigeon_list[name].keys.include?(attribute)
-          pigeon_list[name][attriube] = [option]
+          pigeon_list[name][attribute] = [option]
         else
           pigeon_list[name][attribute].push(option)
         end
